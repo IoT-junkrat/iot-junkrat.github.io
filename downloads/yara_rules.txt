@@ -1,1 +1,56 @@
-yara
+# Rules to add in path "$(FACT_core)/src/plugins/analysis/software_components/signatures/safer.yara"
+
+rule zlib
+{
+        meta:
+                software_name = "zlib"
+                open_source = true
+                website = ""
+                description ="compression library"
+        strings:
+            $a = /zlib( \d+\.\d+\.\d+[a-z]?)?/ nocase ascii wide
+        condition:
+            $a
+}
+
+
+rule Expat
+{
+        meta:
+                software_name = "Expat"
+                open_source = true
+                website = ""
+                description = "XML parser"
+        strings:
+                $a = /Expat( \d+\.\d+\.\d+[a-z]?)?/ nocase ascii wide
+        condition:
+                $a
+}
+
+
+rule OpenLDAP
+{
+        meta:
+                software_name = "OpenLDAP"
+                open_source = true
+                website = "openldap.org"
+                description = "OpenLDAP"
+        strings:
+                $a = /OpenLDAP( \d+\.\d+\.\d+[a-z]?)?/ nocase ascii wide
+        condition:
+                $a
+}
+
+
+rule Raphael
+{
+        meta:
+                software_name = "Raphael"
+                open_source = true
+                website = "https://dmitrybaranovskiy.github.io/raphael/"
+                description = "Raphael JS"
+        strings:
+                $a = /Raphael( \d+\.\d+\.\d+[a-z]?)?/ nocase ascii wide
+        condition:
+                $a
+}
