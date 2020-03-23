@@ -1,1 +1,9 @@
-Link to AWS S3 bucket:
+1. Downlad and install FACT from their GitHub page: https://github.com/fkie-cad/FACT_core/
+2. Download the ~400GB copy of our FACT instance here:
+   https://safer-iot-framework.s3.amazonaws.com/safer_firmware_images2.tar.gz
+
+3. Unpack using tar.
+4. Replace the existing FACT folders with the unpacked ones.
+5. Make sure to replace the config files in FACT/src/config/ to be able to connect to the mongoDB instance.
+6. Start with 'FACT_core/start_all_installed_fact_components'.
+6. Have fun analyzing :)
