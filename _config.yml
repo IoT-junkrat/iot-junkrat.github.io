@@ -59,3 +59,6 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Tracking
+google_analytics: UA-176079673-1
