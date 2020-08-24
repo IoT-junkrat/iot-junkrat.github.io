@@ -1,4 +1,4 @@
-url: https://y7kim.github.io
+# url: https://y7kim.github.io
 #baseurl: /agency-jekyll-theme/
 # baseurl: /
 
@@ -62,3 +62,6 @@ permalink: pretty
 
 # Tracking
 google_analytics: UA-176079673-1
+
+# Brave Rewards
+include: [".well-known"]
