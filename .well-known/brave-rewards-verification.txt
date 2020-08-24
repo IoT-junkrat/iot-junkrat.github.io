@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: safer.network
+Token: d7f939a52a1457102cdf64b51ee0b19bf71d8494ab05f73dec08777f5a6bfbb3
