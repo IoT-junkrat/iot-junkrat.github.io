@@ -1,6 +1,6 @@
 1. Downlad and install FACT from their GitHub page: https://github.com/fkie-cad/FACT_core/
 2. Download the ~400GB copy of our FACT instance here:
-   https://safer-iot-framework.s3.amazonaws.com/safer_firmware_images2.tar.gz
+   https://safer.network/downloads/safer_firmware_images.tar.torrent
 
 3. Unpack using tar.
 4. Replace the existing FACT folders with the unpacked ones.
