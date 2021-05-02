@@ -1,9 +1,8 @@
 1. Downlad and install FACT from their GitHub page: https://github.com/fkie-cad/FACT_core/
 2. Download the ~400GB copy of our FACT instance:
 
-Currently re-uploading a new version to AWS. Will be available in mid-May.
-
-Old Torrent file: https://safer.network/downloads/safer_firmware_images.tar.torrent
+Torrent file: https://safer.network/downloads/safer_firmware_images.tar.torrent
+May 2nd, 20201
 
 3. Unpack using tar.
 4. Replace the existing FACT folders with the unpacked ones.
