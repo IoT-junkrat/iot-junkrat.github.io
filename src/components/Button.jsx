@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-const Button = ({ styles }) => {
+const Button = ({ email, subject, body, styles }) => {
+
+  //<button type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+  const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
   return (
-    <button type='button' className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles} rounded-[10px]`}>
-      Get Started
-    </button>
-  )
-}
-
-export default Button
+    <a href={mailtoLink} target="_blank" rel="noopener noreferrer">
+      Send Email
+    </a>
+  );
+ //</button>
+};
+export default Button;

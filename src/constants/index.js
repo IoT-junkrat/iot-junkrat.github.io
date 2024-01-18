@@ -12,7 +12,11 @@ import {
   dropbox, 
   send, 
   shield, 
-  star
+  star,
+  cern,
+  einsundeins,
+  mam,
+  liebherr
 } from "../assets";
 
 export const navLinks = [
@@ -22,15 +26,19 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "Objectives",
   },
   {
     id: "product",
-    title: "Product",
+    title: "TBD_Product",
   },
   {
     id: "experience",
-    title: "Testimonials",
+    title: "Experience",
+  },
+  {
+    id: "contact",
+    title: "Contact",
   },
 ];
 
@@ -72,7 +80,7 @@ export const feedback = [
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
     name: "Dr. S.L.",
-    title: "CISO, CERN",
+    title: "CISO, FOOCE",
     img: people02,
   },
 
@@ -194,24 +202,4 @@ export const socialMedia = [
     link: "https://www.linkedin.com/",
   },
 ];
-
-export const experience = [
-  {
-    id: "experience-1",
-    logo: airbnb,
-  },
-  {
-    id: "experience-2",
-    logo: binance,
-  },
-  {
-    id: "experience-3",
-    logo: coinbase,
-  },
-  {
-    id: "experience-4",
-    logo: dropbox,
-  },
-];
-
 

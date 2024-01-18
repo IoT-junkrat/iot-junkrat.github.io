@@ -3,13 +3,11 @@ import {
   Billing, 
   Business, 
   CardDeal, 
-  Experience, 
   CTA, 
-  Footer, 
   Hero, 
   Navbar, 
-  Stats, 
-  Testimonials 
+  Stats,
+  Footer 
 } from './components'
 import styles from './style'
 
@@ -32,10 +30,8 @@ const App = () => {
           <Business/>
           <Billing/>
           <CardDeal/>
-          <Testimonials/>
-          <Experience/>
           <CTA/>
-          <Footer/>     
+          <Footer/>
         </div>
       </div>
     </div>

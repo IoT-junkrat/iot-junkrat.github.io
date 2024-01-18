@@ -27,7 +27,7 @@ const Business = () => {
   return (
     <section id='features' className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>You do the business, <br className='sm:block hidden'/>we'll support you in cybersecurity.</h2>
+        <h2 className={styles.heading2}>You focus on your business, <br className='sm:block hidden'/>we'll support you in cybersecurity.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         We craft personalized strategies, employing state-of-the-art technologies and best practices 
 	to shield against the relentless evolution of cyber threats. From identifying vulnerabilities to implementing robust defenses, 

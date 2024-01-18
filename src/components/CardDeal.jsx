@@ -5,7 +5,7 @@ import styles, { layout } from '../style'
 
 const CardDeal = () => {
   return (
-    <section className={layout.section}>
+    <section id='experience' className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>Find a better card deal <br className='sm:block hidden'/>in few easy steps.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
