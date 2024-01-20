@@ -8,7 +8,7 @@ const CTA = () => {
       <div className='flex-1 flex flex-col'>
         <h2 className={styles.heading2}>Let's work together!</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Send us an eMail to get in contact with us.
+          Send an eMail to get in contact with us.
         </p>
       </div>
       <div className={`${styles.flexCenter} sm:ml-10 ml-0`}>
