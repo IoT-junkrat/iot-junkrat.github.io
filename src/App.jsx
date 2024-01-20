@@ -2,18 +2,41 @@ import React from 'react'
 import { 
   Billing, 
   Business, 
-  CardDeal, 
   CTA, 
   Hero, 
   Navbar, 
   Stats,
-  Footer 
+  Footer,
+  Testimonials 
 } from './components'
 import styles from './style'
+import uparrowimg from "./assets/uparrow.png";
+import { useEffect, useState } from "react";
 
 const App = () => {
-  return (
-    <div className='bg-primary w-full overflow-hidden'>
+
+   const [showTopButton, setshowTopButton] = useState(false)
+
+   const handleScrollToTopEvent=()=>{
+     window.scrollTo({top:0 , behavior:'smooth'});
+   }
+
+   useEffect(() => {
+     const handleTopEvent=()=>{
+       window.pageYOffset>300 ? setshowTopButton(true) :setshowTopButton(false);
+     }
+
+     window.addEventListener('scroll',handleTopEvent);
+
+
+     return () => {
+       window.removeEventListener('scroll',handleTopEvent);
+     }
+   }, []);
+
+   return(
+     <div className="bg-primary w-full overflow-hidden">
+
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar/>
@@ -29,7 +52,7 @@ const App = () => {
           <Stats/>
           <Business/>
           <Billing/>
-          <CardDeal/>
+	  <Testimonials/>
           <CTA/>
           <Footer/>
         </div>

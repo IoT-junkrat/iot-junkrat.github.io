@@ -7,6 +7,7 @@ import Hero from './Hero'
 import Navbar from './Navbar'
 import Stats from './Stats'
 import Footer from './Footer'
+import Testimonials from './Testimonials'
 
 export {
     Billing,
@@ -17,5 +18,6 @@ export {
     Hero,
     Navbar,
     Stats,
+    Testimonials,
     Footer
 }
