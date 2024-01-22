@@ -1,13 +1,14 @@
 import React from 'react'
-import { 
-  Billing, 
-  Business, 
-  CTA, 
-  Hero, 
-  Navbar, 
+import {
+  Billing,
+  Business,
+  CTA,
+  Hero,
+  Navbar,
   Stats,
   Footer,
-  Testimonials 
+  Testimonials,
+  Impressum
 } from './components'
 import styles from './style'
 import uparrowimg from "./assets/uparrow.png";
@@ -44,7 +45,7 @@ const App = () => {
       </div>
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Hero/>      
+          <Hero/>
         </div>
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
@@ -52,9 +53,10 @@ const App = () => {
           <Stats/>
           <Business/>
           <Billing/>
-	  <Testimonials/>
+          <Testimonials/>
           <CTA/>
           <Footer/>
+          <Impressum/>
         </div>
       </div>
     </div>

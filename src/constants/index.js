@@ -40,6 +40,10 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "impressum",
+    title: "Impressum",
+  },
 ];
 
 export const features = [
@@ -106,11 +110,11 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Further Pages",
+    title: "",
     links: [
       {
-        name: "Impressum",
-        link: "https://www.safer.network/impressum/",
+        name: "",
+        link: ""
       },
     ],
   },

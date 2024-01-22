@@ -8,6 +8,7 @@ import Navbar from './Navbar'
 import Stats from './Stats'
 import Footer from './Footer'
 import Testimonials from './Testimonials'
+import Impressum from './Impressum'
 
 export {
     Billing,
@@ -19,5 +20,6 @@ export {
     Navbar,
     Stats,
     Testimonials,
-    Footer
+    Footer,
+    Impressum
 }
