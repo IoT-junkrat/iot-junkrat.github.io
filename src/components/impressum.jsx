@@ -16,10 +16,10 @@ const impressum = () => {
           Dr. Pascal Oser<br/><br/>
 
           Kontakt: <br/>
-          Telefon: 000000000<br/>
+          {/*Telefon: 000000000<br/>*/}
           E-Mail: pascal@safer.network<br/><br/>
 
-          Umsatzsteuer-Identifikationsnummer: DE XXXXXXX<br/>
+          {/*Umsatzsteuer-Identifikationsnummer: DE XXXXXXX<br/>*/}
           Handelsregister: Mannheim, HRB 749608<br/>
         </p>
       </div>

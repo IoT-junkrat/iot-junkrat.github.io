@@ -9,7 +9,7 @@ const Footer = () => (
         <img
           src={logo}
           alt="SAFER Technologies"
-          className="w-[266px] h-[72.14px] object-contain"
+          className="object-left w-[400px] h-[200px] object-contain rounded-full"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
         Empowering Digital Resilience: Elevate Your Security with Our Expertise.
