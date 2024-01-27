@@ -13,6 +13,9 @@ import {
 import styles from './style'
 import uparrowimg from "./assets/uparrow.png";
 import { useEffect, useState } from "react";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("UA-176079673-1");
 
 const App = () => {
 
