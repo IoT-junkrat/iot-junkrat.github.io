@@ -19,7 +19,7 @@ const Hero = () => {
           Consulting
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        In our interconnected world, cybersecurity is essential to protect our digital treasures – personal data, finances, memories, and professional achievements. As cyber threats evolve, neglecting cybersecurity poses severe risks, both for individuals and businesses.  
+        In our interconnected world, cybersecurity is essential to protect our digital treasures – personal data, finances, memories, and professional achievements. As cyber threats evolve, neglecting cybersecurity poses severe risks, both for individuals and businesses. Let us get in contact to increase your digital resilience now.
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
