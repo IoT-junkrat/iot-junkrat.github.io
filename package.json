@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "vite build && cp CNAME ./dist",
+    "predeploy": "vite build && cp CNAME ./dist && cp contact.vcf ./dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
