@@ -7,7 +7,7 @@ const impressum = () => {
       <div className='flex-1 flex flex-col'>
         <h3 className={styles.heading2}>Impressum</h3>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Angaben gemäß § 5 TMG: <br/>
+          Information according to § 5 TMG: <br/>
           SAFER Technologies UG (haftungsbeschränkt)<br/>
           Hauptstraße 35a<br/>
           77839, Lichtenau, Germany <br/><br/>
@@ -16,7 +16,7 @@ const impressum = () => {
           Dr. Pascal Oser<br/><br/>
 
           Contact: <br/>
-          Mobile: 015157800439 <br/>
+          Mobile: <a href="tel: 4915157800439"> +49 (0)151 57800439</a><br/>
           E-Mail: pascal@safer.network<br/>
 	  Contact Card: <a href="https://safer.network/contact.vcf" title="Contact Card"><u>Press here</u></a><br/><br/>
 
