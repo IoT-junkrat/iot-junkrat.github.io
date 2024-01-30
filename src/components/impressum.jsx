@@ -16,7 +16,7 @@ const impressum = () => {
           Dr. Pascal Oser<br/><br/>
 
           Kontakt: <br/>
-          {/*Telefon: 000000000<br/>*/}
+          Telefon: +49 151 / 578 004 39 <br/>
           E-Mail: pascal@safer.network<br/><br/>
 
           {/*Umsatzsteuer-Identifikationsnummer: DE XXXXXXX<br/>*/}
