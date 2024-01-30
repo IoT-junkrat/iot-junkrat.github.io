@@ -17,7 +17,7 @@ const impressum = () => {
 
           Contact: <br/>
           Mobile: <a href="tel: 4915157800439"> +49 (0)151 57800439</a><br/>
-          E-Mail: pascal@safer.network<br/>
+          E-Mail: <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;pa%73&#x63;%61%6c&#x40;%73a&#x66;%65&#x72;&#x2e;%6eetw%6f%72&#x6b;" title="&#x70;asc&#x61;l@safe&#x72;.ne&#x74;&#x77;or&#x6b;">&#x70;asc&#x61;l@safe&#x72;.ne&#x74;&#x77;or&#x6b;</a><br/>
 	  Contact Card: <a href="https://safer.network/contact.vcf" title="Contact Card"><u>Press here</u></a><br/><br/>
 
           {/*Umsatzsteuer-Identifikationsnummer: DE XXXXXXX<br/>*/}
