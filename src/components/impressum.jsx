@@ -12,15 +12,16 @@ const impressum = () => {
           Hauptstraße 35a<br/>
           77839, Lichtenau, Germany <br/><br/>
 
-          Vertreten durch:  <br/>
+          Represented by:  <br/>
           Dr. Pascal Oser<br/><br/>
 
-          Kontakt: <br/>
-          Telefon: +49 151 / 578 004 39 <br/>
-          E-Mail: pascal@safer.network<br/><br/>
+          Contact: <br/>
+          Mobile: +49151/57800439 <br/>
+          E-Mail: pascal@safer.network<br/>
+	  Contact Card: <a href="https://safer.network/contact.vcf" title="Contact Card"><u>Press here</u></a><br/><br/>
 
           {/*Umsatzsteuer-Identifikationsnummer: DE XXXXXXX<br/>*/}
-          Handelsregister: Mannheim, HRB 749608<br/>
+          Trade Register: Mannheim, HRB 749608<br/>
         </p>
       </div>
     </section>
