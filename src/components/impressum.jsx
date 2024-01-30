@@ -16,7 +16,7 @@ const impressum = () => {
           Dr. Pascal Oser<br/><br/>
 
           Contact: <br/>
-          Mobile: +49151/57800439 <br/>
+          Mobile: 015157800439 <br/>
           E-Mail: pascal@safer.network<br/>
 	  Contact Card: <a href="https://safer.network/contact.vcf" title="Contact Card"><u>Press here</u></a><br/><br/>
 
