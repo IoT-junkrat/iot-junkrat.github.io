@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../style'
 import Button from './Button'
+import ButtonVCard from './ButtonVCard'
 
 const CTA = () => {
   return (
@@ -8,11 +9,14 @@ const CTA = () => {
       <div className='flex-1 flex flex-col'>
         <h2 className={styles.heading2}>Let's work together!</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Send an eMail to get in contact with us.
+          Use the buttons to send us an eMail or call us directly.
         </p>
       </div>
       <div className={`${styles.flexCenter} sm:ml-10 ml-0`}>
-        <Button email="info@safer.network" subject="Interest in your services" body="How can we assist you?" />
+        <Button />
+      </div>
+      <div className={`${styles.flexCenter} sm:ml-10 ml-0`}>
+        <ButtonVCard />
       </div>
     </section>
   )
